@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rom_ResetIncompleteInvoicedOrders>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Rom_ResetIncompleteInvoicedOrders>
+    </modules>
+</config>

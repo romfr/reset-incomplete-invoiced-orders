@@ -1,0 +1,15 @@
+<?xml  version="1.0"?>
+<config>
+    <modules>
+        <Rom_ResetIncompleteInvoicedOrders>
+            <version>0.1.0</version>
+        </Rom_ResetIncompleteInvoicedOrders>
+    </modules>
+    <global>
+        <models>
+            <rom_resetincompleteinvoicedorders>
+                <class>Rom_ResetIncompleteInvoicedOrders_Model</class>
+            </rom_resetincompleteinvoicedorders>
+        </models>
+    </global>
+</config>

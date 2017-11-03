@@ -1,0 +1,14 @@
+{
+  "name": "rom/reset-incomplete-invoiced-orders",
+  "license": ["OSL-3.0"],
+  "type": "magento-module",
+  "description": "Magento1 extension to reset incomplete invoiced orders ",
+  "homepage": "https://github.com/romfr/reset-incomplete-invoiced-orders",
+  "authors":[{
+    "name": "André Herrn",
+    "email": "andre.herrn@rom.fr"
+  }],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}
