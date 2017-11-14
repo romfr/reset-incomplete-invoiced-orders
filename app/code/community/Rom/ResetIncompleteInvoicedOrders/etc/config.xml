@@ -6,10 +6,27 @@
         </Rom_ResetIncompleteInvoicedOrders>
     </modules>
     <global>
+        <helpers>
+            <rom_resetincompleteinvoicedorders>
+                <class>Rom_ResetIncompleteInvoicedOrders_Helper</class>
+            </rom_resetincompleteinvoicedorders>
+        </helpers>
         <models>
             <rom_resetincompleteinvoicedorders>
                 <class>Rom_ResetIncompleteInvoicedOrders_Model</class>
             </rom_resetincompleteinvoicedorders>
         </models>
     </global>
+    <crontab>
+        <jobs>
+            <rom_resetincompleteinvoicedorders_cron>
+                <schedule>
+                    <cron_expr>* 10,40 * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>rom_resetincompleteinvoicedorders/crontab::runReset</model>
+                </run>
+            </rom_resetincompleteinvoicedorders_cron>
+        </jobs>
+    </crontab>
 </config>
